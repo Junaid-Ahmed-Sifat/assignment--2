@@ -152,6 +152,55 @@ button:hover {
 
 
 
+/* main1 */
+
+main{
+    width: 1180px;;
+    margin-left: 135px;
+}
+.m1-totalcol{
+    display: flex;
+}
+
+.tours{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.m1c1p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
 
     header{
@@ -204,6 +253,52 @@ button:hover {
 @media screen and (min-width:601px) and (max-width:1000px) {
     header{
         margin-left: 1px;
+    }
+    
+}
+
+/* main1 resp */
+
+@media screen and (max-width: 600px) {
+    main{
+        margin-left: 2px;
+    }
+    .m1-totalcol{
+        flex-direction: column;
+        width: 205px;
+    }
+    .tours{
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .m1c1p{
+        margin-left: 20px;
+    }
+  
+
+    .m1c2{
+        padding-top: 10px;
+        width: 205px;
+        height:342px;
+        
+    }
+    .m1c2img{
+        width: 335px;
+        height:342px;
+        margin-left: 35px;
+    }
+     .btn{
+        margin-left: 100px;
+     }
+  
+   
+}
+
+
+@media screen and (min-width:601px) and (max-width:1000px) {
+    main{
+        margin-left: 5px;
     }
     
 }
